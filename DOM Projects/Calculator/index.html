@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Calculator</h2>
+            <form class="calculate-form">
+                <div class="result">
+                    <!-- <div class= 'row'> -->
+                        <!-- <div class="col-s3"> -->
+                            <input type="text" id="result" >
+                        <!-- </div> -->
+                        <!-- <div class="col-s3"> -->
+                            <input type="button" id="operatorC" class="op" value= "Clr" >
+                        <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+                <hr>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><input type = "button" class="op" id="operand7" value = "7" ></td>
+                            <td><input type = "button" class="op" id="operand8" value = "8"></td>
+                            <td><input type = "button" class="op" id="operand9" value = "9" ></td>
+                            <td><input type = "button" class="op" id="operatorP" value = "+"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="op" id= "operand4" value="4"></td>
+                            <td><input type="button" class="op" id= "operand5" value="5"></td>
+                            <td><input type="button" class="op" id= "operand6" value="6"></td>
+                            <td><input type="button" class="op" id= "operatorS" value="-"></td> 
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="op" id = "operand3" value="3"></td>
+                            <td><input type="button" class="op" id = "operand2" value="2"></td>
+                            <td><input type="button" class="op" id = "operand1" value="1"></td>
+                            <td><input type="button" class="op" id = "operatorM" value="*"></td> 
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="op" id = "operand0" value="0"></td>
+                            <td><input type="button" class="op" id = "dot" value="."></td>
+                            <td><input type="button" class="op" id = "equal" value="="></td>
+                            <td><input type="button" class="op" id = "operatorD" value="/"></td> 
+                        </tr> 
+                    </tbody>
+                </table>
+            </form>  
+        </div>
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
