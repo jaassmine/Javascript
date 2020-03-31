@@ -1,0 +1,45 @@
+*{
+    margin: 0 ; 
+    padding: 0;
+}
+
+.container{
+    margin-top: 100px;
+    padding: 50px 50px ;
+    background: #e9e5e5;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(to bottom, rgb(157, 220, 245),rgb(240, 173, 229));
+    border-radius: 20px;
+}
+.card{
+    overflow : none;
+    margin-left: 250px;
+    width: 330px;
+    border-radius: 20px;
+    background :linear-gradient(to top, rgb(186, 227, 243),rgb(238, 192, 230));
+}
+input[type = button]{
+    background:linear-gradient(to right, rgb(186, 227, 243),rgb(238, 192, 230));
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+table td{
+    padding: 5px;
+}
+table .op{
+    font-size: 15px;
+}
+table #operator {
+    font-size: 20px;
+}
+table #dot{
+    font-size: 20px;
+}
+
+table #equal{
+    font-size: 20px;
+}
