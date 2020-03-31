@@ -160,5 +160,7 @@ function solve(){
     // }else{
         document.getElementById('result').value = r;
         console.log(r);
-    // }
+        exp = document.getElementById('result').value ;
+        // console.log(exp);
+        // }
 }
