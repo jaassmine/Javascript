@@ -6,9 +6,10 @@ Fundamentals
 DOM
 
 DOM PRojects:
-    Task List
-    Loan Calculator
-    Number Guesser
-    Calculator
+
+    1.  Task List
+    2.  Loan Calculator
+    3.  Number Guesser
+    4.  Calculator
     
 Object Oriented Programming JavaScript (ES5 & ES2015)
