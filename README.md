@@ -1,5 +1,5 @@
 # Javascript
-Learning modern Javascript
+// **Learning modern Javascript**//
 
 Fundamentals
 
