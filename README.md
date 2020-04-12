@@ -13,3 +13,6 @@ Section 3 : **DOM Projects**
     4.  Calculator
     
 Section 4 : **Object Oriented Programming JavaScript (ES5 & ES2015)**
+
+Section 5 : **OOP Project**
+
